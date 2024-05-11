@@ -2,7 +2,7 @@ use std::str::FromStr;
 
 use bdk::bitcoin::bip32::{DerivationPath, KeySource};
 use bdk::bitcoin::key::Secp256k1;
-use bdk::bitcoin::{Address, Amount, Network};
+use bdk::bitcoin::{Address, Network};
 use bdk::blockchain::EsploraBlockchain;
 use bdk::database::MemoryDatabase;
 use bdk::keys::bip39::{Language, Mnemonic};
