@@ -1,3 +1,3 @@
-bkd_web_wallet
+letpos_bkd_web_wallet
 
-testing stuff
+building leptos bdk wallet for testing. DONT USE THIS PLSSSSSSSSSSSSSSSSSSSSSSSSS
