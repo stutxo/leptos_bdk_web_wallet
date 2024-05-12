@@ -210,6 +210,7 @@ fn get_descriptors() -> (String, String) {
         .expect("no local storage")
         .expect("local storage is not available");
 
+    //this is dumb, encrypt this or something once i figure out more UI stuff!!
     let mnemonic = if let Ok(Some(mnemonic)) = local_storage.get_item("mnemonic") {
         info!("Mnemonic: {}", mnemonic.to_string());
         mnemonic
